@@ -8,7 +8,7 @@ const AddTask = ({onAdd}) => {
     const onSubmit=(e) =>{
         e.preventDefault();
 
-        if(text==''){
+        if(text===''){
             alert('Enter task name')
             return
         }
